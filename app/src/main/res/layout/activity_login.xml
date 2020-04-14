@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/LoginIcon"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/login"
+        android:contentDescription="TODO"
+        />
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Username"
+        android:textSize="20sp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="Password"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@android:drawable/ic_secure"
+        android:maxLines="1"
+        />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/LoginClick"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:text="login"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
